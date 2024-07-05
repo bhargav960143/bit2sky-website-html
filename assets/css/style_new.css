@@ -1,0 +1,166 @@
+/* ----------- BEGIN: common -----------------------*/
+:root{
+    --app-font-poppins : Poppins,sans-serif;
+    --app-font-opensans : 'Open Sans',sans-serif;
+    --app-font-hk: "Hanken Grotesk", sans-serif;
+    --app-font-fas: "Font Awesome 6 Free";
+}
+.app-bg-primary{
+    background-color: #00B0FF;
+}
+.app-color-primary{
+    color: #00B0FF;
+}
+.app-bg-secondary{
+    background-color: #050748;
+}
+.app-color-secondary{
+    color: #050748;
+}
+.app-btn{
+    width: auto;
+    border-radius: 16px;
+    font-weight: 600;
+    margin: initial;
+}
+.btn-main .btn-icon{
+    font-size: 10px;
+}
+.bg-btn3 {
+    background: linear-gradient(88.38deg, #4ABAEC 0.41%, #39BCF9 98.63%);
+    box-shadow: 0px 10px 15px rgba(43, 89, 255, 0.16);
+}
+.bg-btn4 {
+    background: linear-gradient(90deg, #383838 0%, #464646 100%);
+    box-shadow: 0px 10px 15px rgba(107, 107, 107, 0.2);
+}
+
+.app-custom-container{
+    width: 100%;
+    max-width: 1200px;
+    padding-inline: 0.75rem;
+    margin-inline: auto;
+}
+/* ----------- END: common -----------------------*/
+
+/* ----------- BEGIN: main nav -----------------------*/
+.main-header{
+    height: 96px;
+    background-color: rgba(255, 255, 255, 0.55);
+}
+.dsk-logo .nav-brand img {
+    max-height: 34px;
+}
+.custom-nav .nav-list li a.menu-links{
+    line-height: 96px;
+    font-size: 16px;
+    padding: 0 22.5px;
+    text-transform: capitalize;
+    font-family: var(--app-font-hk);
+
+}
+.custom-nav .sbmenu>a::before{
+    content: "\f078";
+    font-family: var(--app-font-fas);
+    font-weight: 900;
+    font-size: 12px;
+}
+.custom-nav .sbmenu.hover>a::before{
+    content: "\f077";
+}
+/* ----------- END: main nav -----------------------*/
+/* ----------- BEGIN: hero section -----------------------*/
+.lead-hero {
+    background: url(../images/hero/bg-gradient-new-1.png) center center no-repeat;
+    background-size: cover;
+    padding: 120px 0 60px;
+    min-height: 100vh;
+    height: auto;
+}
+.lead-hero .app-custom-container{
+    padding-inline: 62px;
+    gap: 32px;
+}
+.lead-hero .banner-title-1{
+    font-family: var(--app-font-opensans);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #6A6A8E;
+}
+.lead-hero .banner-title-2{
+    font-family: var(--app-font-poppins);
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 64px;
+    max-width: 600px;
+}
+.lead-hero  .banner-summary-text{
+    font-family: var(--app-font-opensans);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6A6A8E;
+    max-width: 490px;
+}
+.lead-hero .btn-box .btn-main{
+    min-width: 214px;
+}
+.lead-hero .img-container{
+    width: 425px;
+}
+.lead-hero .img-container img{
+    max-width: 100%;
+}
+.lead-hero .owl-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-inline: auto;
+    max-width: 83%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    translate: 0 -100px;
+}
+.lead-hero .owl-carousel .owl-nav button{
+    height: 57px;
+    padding: 0px !important;
+    aspect-ratio: 1;
+    border-radius: 50%; 
+    background-color: rgba(0,0,0,0.24) !important;
+    font-size: 60px;
+    color: #fff;
+}
+.lead-hero .owl-carousel .owl-nav button span{
+    line-height: 43px;
+    display: block;
+    height: 100%;
+}
+/* ----------- END: hero section -----------------------*/
+/* ----------- BEGIN: client logo -----------------------*/
+.section-client-logo{
+    height: 160px;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-client-logo .client-logo-box{
+    width: 150px;
+    height: 100px;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    box-shadow: 0px 10px 20px -10px rgba(13, 131, 253, 0.13);
+    border-radius: 14px;
+}
+.section-client-logo .client-logo-box img{
+    max-width: 122px;
+}
+.section-client-logo .owl-item{
+    display: flex;
+    justify-content: center;
+}
+/* ----------- END: hero section -----------------------*/

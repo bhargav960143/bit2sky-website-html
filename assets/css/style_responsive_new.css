@@ -1,0 +1,49 @@
+@media (max-width: 575px) {
+    .app-btn{
+        border-radius: 8px;
+        font-size: 12px;
+        padding: 0 22px;
+        line-height: 46px;
+    }
+}
+/* ----------- END: common -----------------------*/
+/* ----------- BEGIN: hero section -----------------------*/
+@media(max-width: 1460px){
+    .lead-hero .owl-nav{
+        position: static;
+        max-width: 100%;
+        justify-content: center;
+        translate: 0 0;
+    }
+    .lead-hero .owl-nav button{
+        margin: 10px;
+    }
+}
+@media(max-width: 991px){
+    .app-custom-container{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .app-custom-container .btn-box{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .app-custom-container .img-container{
+        width: 100%;
+        max-width: 330px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 768px){
+    .lead-hero .btn-box{
+        gap: 0.5rem !important;
+    }
+    .lead-hero .banner-title-2 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+}
+/* ----------- END: hero section -----------------------*/
