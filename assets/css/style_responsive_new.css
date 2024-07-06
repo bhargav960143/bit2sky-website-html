@@ -89,5 +89,10 @@
          line-height: 54px;
      }
      /* ----------- END: hero section -----------------------*/
+     /* ----------- BEGIN: main nav -----------------------*/
+     .main-header{
+        height: 56px;
+     }
+     /* ----------- END: main nav -----------------------*/
 
 }

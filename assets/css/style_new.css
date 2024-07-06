@@ -5,7 +5,9 @@
     --app-font-hk: "Hanken Grotesk", sans-serif;
     --app-font-fas: "Font Awesome 6 Free";
 }
-
+.app-rounded-12{
+    border-radius: 12px;
+}
 .app-bg-primary {
     background-color: #00B0FF;
 }
@@ -13,7 +15,6 @@
 .app-color-primary {
     color: #00B0FF;
 }
-
 
 .app-bg-secondary {
     background-color: #050748;
@@ -29,6 +30,9 @@
 
 .app-text-light-color {
     color: #EBEBEB;
+}
+.app-bg-light-color {
+    background-color: #EBEBEB;
 }
 
 .app-bg-light-gray{
@@ -56,6 +60,34 @@
 .bg-btn4 {
     background: linear-gradient(90deg, #383838 0%, #464646 100%);
     box-shadow: 0px 10px 15px rgba(107, 107, 107, 0.2);
+}
+
+.bg-btn5 {
+    background: #EFF8FF;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    box-shadow: none;
+    color: #000;
+}
+.bg-btn5:hover{
+    color: rgba(0, 0, 0, 0.616);
+}
+.bg-btn5 i{
+    color: #00B0FF;
+}
+
+.bg-btn6 {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    box-shadow: none;
+    color: #000;
+}
+.bg-btn6:hover {
+    color: rgba(0, 0, 0, 0.616);
+}
+.bg-btn6 i{
+    color: #00B0FF;
 }
 
 .app-custom-container {
@@ -168,8 +200,6 @@
     background-color: #EBEBEB;
 }
 
-
-
 .app-card-style-3 {
     padding: 48px 16px;
     background: #F7F7F7;
@@ -208,6 +238,21 @@
     font-size: 25px;
     line-height: 35px;
 } 
+.app-card-style-5 .app-card-img-wrapper{
+    width: 100%;
+    aspect-ratio: 276/326;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.app-card-style-5 .app-card-img-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.app-card-style-5 .app-card-icon{
+    font-size: 18px;
+    color: #000;
+}
 
 .app-awrd {
     height: 150px;
@@ -307,6 +352,28 @@ border-radius: 8px;
 .opl ul li{
     flex: 1;
 }
+.app-img-header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app-img-header:before,
+.app-img-header:after{
+    display: none;
+}
+.breadcrumb-area .bread-menu li a,
+.breadcrumb-area .bread-menu li+li::before,
+.bread-title h2{
+    color: #fff;
+}
+.why-choose{
+    background-color: #fff;
+}
+.app-font-20{
+    font-size: 20px;
+    line-height: 30px;
+}
+
 /* ----------- END: common -----------------------*/
 
 /* ----------- BEGIN: main nav -----------------------*/
@@ -423,7 +490,7 @@ border-radius: 8px;
 /* ----------- END: hero section -----------------------*/
 /* ----------- BEGIN: client logo -----------------------*/
 .section-client-logo {
-    height: 160px;
+    /* height: 160px; */
     background-color: #FAFAFA;
     display: flex;
     align-items: center;
@@ -436,7 +503,7 @@ border-radius: 8px;
     background-color: #FCFCFC;
     display: grid;
     place-items: center;
-    box-shadow: 0px 10px 20px -10px rgba(13, 131, 253, 0.13);
+    /* box-shadow: 0px 10px 20px -10px rgba(13, 131, 253, 0.13); */
     border-radius: 14px;
 }
 
@@ -457,7 +524,8 @@ border-radius: 8px;
 
 /* ----------- END: why choose -----------------------*/
 /* ----------- BEGIN: section request quote -----------------------*/
-.section-req-quote {
+.section-req-quote,
+.app-blue-dotted-bg {
     background-repeat: repeat;
     background-image: url(../images/shape/dot_bg.png);
     background-color: #EFF8FF;
@@ -466,7 +534,53 @@ border-radius: 8px;
 
 /* ----------- END: section request quote -----------------------*/
 /* ----------- BEGIN: footer -----------------------*/
-.app-main-footer .footer-row2 h5{
+.footer-row2 h5,
+.footer-social-media-icons a{
     color: #fff !important;
 }
+.footer-row2 .ftr-brand-pp p,
+.ftr-details li,
+.footer-address-list li a{
+    color: #F3F3F3;
+}
+.footer-row3 p,
+.footer-row3 p a{
+    color: #AFAFAF;
+}
 /* ----------- END: footer -----------------------*/
+/* ----------- BEGIN: section-project-counts -----------------------*/
+.section-project-counts{
+    font-family: var(--app-font-opensans);
+    background-color: #FAFAFA;
+    padding: 32px 0;
+}
+.section-project-counts h2{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 35px;
+}
+.section-project-counts p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* ----------- END: section-project-counts -----------------------*/
+/* ----------- BEGIN: subscribe -----------------------*/
+.app-subscribe-input{
+    position: relative;
+}
+.app-subscribe-input input{
+    width: 100%;
+    height: 65px;
+    background: #EBEBEB;
+    border: 1px solid #E6E6E6;
+    border-radius: 16px;
+    padding: 15px 165px 15px 30px;
+}
+.app-subscribe-input .btn-main {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    translate: 0 -50%;
+}
+/* ----------- END: subscribe -----------------------*/
