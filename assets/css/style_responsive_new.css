@@ -27,6 +27,10 @@
     .app-card-style-2 .app-card-img{
         width: 100% !important;
     }
+    .pad-tb {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 /* ----------- END: common -----------------------*/
 @media(max-width: 1460px){
