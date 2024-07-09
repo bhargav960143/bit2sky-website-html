@@ -48,6 +48,10 @@
 }
 @media(max-width: 991px){
      /* ----------- BEGIN: hero section -----------------------*/
+     .lead-hero{
+        min-height: auto;
+        height: auto;
+     }
     .lead-hero .app-custom-container{
         flex-wrap: wrap;
         text-align: center;
@@ -81,6 +85,13 @@
         margin-inline: auto;
      }
      /* ----------- END: hero section -----------------------*/
+     /* ----------- BEGIN: section request quote -----------------------*/
+     .app-req-quote-form-col{
+        width: 100%;
+        min-width: 100%;
+     }
+     
+     /* ----------- END: section request quote -----------------------*/
 
 }
 @media(max-width: 768px){
