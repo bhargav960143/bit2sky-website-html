@@ -411,6 +411,9 @@ div.custom-nav>ul>li.sbmenu>a:after {
     aspect-ratio: 376/235;
     object-fit: cover;
 }
+.enquire-image img{
+    max-width: 300px;
+}
 /* ----------- END: common -----------------------*/
 
 /* ----------- BEGIN: main nav -----------------------*/
