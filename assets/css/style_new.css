@@ -5,6 +5,7 @@
     --app-font-hk: "Hanken Grotesk", sans-serif;
     --app-font-fas: "Font Awesome 6 Free";
 }
+a{text-decoration: none;}
 .app-rounded-12{
     border-radius: 12px;
 }
