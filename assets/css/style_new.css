@@ -294,11 +294,11 @@ a{text-decoration: none !important;}
 }
 
 .app-awrd.app-awrd-1 {
-    background-image: url("../images/icons/award-bg-1.png");
+    background-image: url("../images/icons/award-bg-1.webp");
 }
 
 .app-awrd.app-awrd-2 {
-    background-image: url("../images/icons/award-bg-2.png");
+    background-image: url("../images/icons/award-bg-2.webp");
 }
 
 .app-social-contact-btn {
@@ -451,7 +451,7 @@ div.custom-nav>ul>li.sbmenu>a:after {
 /* ----------- END: main nav -----------------------*/
 /* ----------- BEGIN: hero section -----------------------*/
 .lead-hero {
-    background: url(../images/hero/bg-gradient-new-1.png) center center no-repeat;
+    background: url(../images/hero/bg-gradient-new-1.webp) center center no-repeat;
     background-size: cover;
     padding: 120px 0 60px;
     min-height: 750px;

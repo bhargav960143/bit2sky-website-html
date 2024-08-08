@@ -1,0 +1,47 @@
+
+@media only screen and (max-width: 765px) {
+
+  .section-client-logo .container {
+    overflow: hidden;
+  }
+
+.section-client-logo .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-client-logo .col-md-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.ct-section-client-logo-height{
+  min-height: 530px !important;
+}
+
+  img.ct-sm-client-logo-box {
+    width: 120px !important;
+    height: 109px !important;
+    aspect-ratio: 1.10 !important;
+    object-fit: contain;
+  }
+
+  .section-client-logo .client-logo-box {
+    height: 120px;
+  }
+
+  img.ct-banner-image{
+    aspect-ratio: 0.83 !important;
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  img.ct-mega-white-logo{
+    aspect-ratio: 3.21 !important;
+    /* width: 150px; */
+  }
+  img.ct-service-image{
+    aspect-ratio: 1.6 !important;
+  }
+}
